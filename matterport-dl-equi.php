@@ -94,7 +94,7 @@ class Mp {
 	var $referer;
 	var $catalog;
 
-	public function Mp($id) {
+	public function __construct($id) {
 		$this->id = $id;
 		$this->referer = "https://my.matterport.com/show/?m=".$this->id;
 		$this->updateUrlBase();
