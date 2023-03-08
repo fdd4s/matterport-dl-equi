@@ -29,13 +29,17 @@ It will download all the skybox images with the highest quality available (4k, 2
 
 "montage-im6.q16: cache resources exhausted " can be resolved changing ImageMagick configuration, more info here: https://github.com/ImageMagick/ImageMagick/issues/396  
 
+## Online downloader
+
+https://openpano.rf.gd/download/ can show skybox images of matterport virtual tours  
+
 ## Viewers
 
 Android: Ricoh Theta App https://play.google.com/store/apps/details?id=com.theta360&hl=en&gl=US  
 
 PC: Linux/Mac/Windows: Panini https://github.com/lazarus-pkgs/panini  
 
-Web Browser: Chrome and Firefox: three.js (webgl based): https://github.com/pljhonglu/threejs-panorama https://threejs.org/examples/webgl_panorama_equirectangular.html  
+Web Browser: Chrome and Firefox: Pannellum (webgl based), self hosted virtual tour, equirectangular and cubemap skybox: https://github.com/mpetroff/pannellum 
 
 ## Youtube 360 slideshow video
 
